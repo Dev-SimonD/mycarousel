@@ -62,6 +62,87 @@ body {
   max-height: 100%;
   width: auto;
 }
+#btnHledej{
+  width: 100%;
+  height: 60px;
+  background-color: #0f1941;
+  margin-bottom: 60px;
+}
+.lokalita{
+  display: block;
+}
+form{
+  display: block;
+  }
+.footerList ul{
+  list-style: none;
+}  
+.footerList ul li{
+  color: #878ca0;
+  line-height: 3;
+}
+.footerList ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footerList{
+  margin: auto;
+  padding-top: 100px;
+  display: none;
+}
+.divider{
+  width: 100%;
+  background-color: rgba(32, 32, 32, 0.664);
+  height: 1px;
+  /* margin-bottom: 30px; */
+}
+#accordionExample{
+  padding: 10px;
+  display: block;
+}
+.accordion-button{
+  background-color: #0f1941;
+  color: #fff;
+  outline: none;
+}
+.accordion{
+--bs-accordion-border-color:none;
+--bs-accordion-btn-focus-box-shadow:none;
+}
+.accordion-button:not(.collapsed){
+  background-color:#0f1941;
+  color:#fff;
+}
+.accordion-item:last-of-type .accordion-button.collapsed {
+  border-bottom-right-radius:0;
+  border-bottom-left-radius: 0;
+}
+.accordion-body{
+  background-color:#0f1941;
+  color:#6b718a;
+}
+.accordion-body ul{
+  list-style: none;
+}
+.accordion-body ul li{
+  line-height: 2; 
+}
+.accordion-body ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-list ul{
+  list-style: none;
+}
+.footer-list ul li{
+  line-height: 2;
+  color: #6b718a;
+  font-size: 1rem;
+}
+.footer-list ul li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 /* .ukrajinaLow{
   display: flex;
@@ -83,5 +164,29 @@ body {
   }
   .ukrajinaLogo{
     width: 100%;
+  }
+  .lokalita{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #btnHledej{
+    margin-bottom: 0;
+  }
+  .footerList{
+    display: flex;
+  }
+  #najitLokalitu{
+    padding-top: 50px;
+  }
+  #gpsImg{
+    height: 400px;
+  }
+  #accordionExample{
+    display: none;
   }
 }
