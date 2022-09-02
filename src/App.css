@@ -6,7 +6,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background: #fff;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -51,4 +51,37 @@ body {
 }
 .swiper-button-prev, .swiper-button-next{
   top: 30%;
+}
+.ukrajinaMain{
+  background-color: #0f1941;
+  min-height: 100vh;
+}
+#gpsImg{
+  height: 300px;
+  margin: 0 auto;
+  max-height: 100%;
+  width: auto;
+}
+
+/* .ukrajinaLow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+@media only screen and (min-width: 926px) {
+  .ukrajinaMain{
+    min-height: 80vh;
+  }
+  .ukrajinaLow {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .ukrajinaLow h2 {
+    padding-top: 100px;
+  }
+  .ukrajinaLogo{
+    width: 100%;
+  }
 }
