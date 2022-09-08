@@ -1,7 +1,32 @@
-import React from 'react'
+import React from "react";
 
-export default function Kategorie(){
+export default function Kategorie() {
   return (
-    <div>Kategorie</div>
-  )
+    <div className=" kategorieMain">
+      <div className="container kategorie-list">
+        <h2 className="pt-2">kategorie pracovních nabídek</h2>
+        <br />
+        <ul>
+          <li>výroba a průmysl</li>
+          <hr />
+          <li>doprava, logistika a zásobování</li>
+          <hr />
+          <li>strojírenství</li>
+          <hr />
+          <li>prodej a obchod</li>
+          <hr />
+          <li>administrativa</li>
+          <hr />
+          <li>zákaznický servis</li>
+          <hr />
+          <li>ekonomika a podnikové finance</li>
+          <hr />
+          <li>personalistika a hr</li>
+          <hr />
+          <li>zobrazit všechny nabídky</li>
+          <hr />
+        </ul>
+      </div>
+    </div>
+  );
 }

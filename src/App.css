@@ -1,4 +1,6 @@
-#root { height: 100% }
+#root {
+  height: 100%;
+}
 html,
 body {
   position: relative;
@@ -13,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.blueText{
+.blueText {
   color: #0f1941;
 }
 
@@ -49,108 +51,150 @@ body {
   min-height: 250px;
   object-fit: cover;
 }
-.swiper-button-prev, .swiper-button-next{
+.swiper-button-prev,
+.swiper-button-next {
   top: 30%;
 }
-.ukrajinaMain{
+.ukrajinaMain {
   background-color: #0f1941;
   min-height: 100vh;
 }
-#gpsImg{
+#gpsImg {
   height: 300px;
   margin: 0 auto;
   max-height: 100%;
   width: auto;
 }
-#btnHledej{
+#btnHledej {
   width: 100%;
   height: 60px;
   background-color: #0f1941;
   margin-bottom: 60px;
 }
-.lokalita{
+.lokalita {
   display: block;
 }
-form{
+form {
   display: block;
-  }
-.footerList ul{
+}
+.footerList ul {
   list-style: none;
-}  
-.footerList ul li{
+}
+.footerList ul li {
   color: #878ca0;
   line-height: 3;
 }
-.footerList ul li:hover{
+.footerList ul li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-.footerList{
+.footerList {
   margin: auto;
   padding-top: 100px;
   display: none;
 }
-.divider{
+.divider {
   width: 100%;
-  background-color: rgba(32, 32, 32, 0.664);
+  background-color: rgba(236, 236, 236, 0.664);
   height: 1px;
   /* margin-bottom: 30px; */
 }
-#accordionExample{
+#accordionExample {
   padding: 10px;
   display: block;
 }
-.accordion-button{
+.accordion-button {
   background-color: #0f1941;
   color: #fff;
   outline: none;
 }
-.accordion{
---bs-accordion-border-color:none;
---bs-accordion-btn-focus-box-shadow:none;
+.accordion {
+  --bs-accordion-border-color: none;
+  --bs-accordion-btn-focus-box-shadow: none;
 }
-.accordion-button:not(.collapsed){
-  background-color:#0f1941;
-  color:#fff;
+.accordion-button:not(.collapsed) {
+  background-color: #0f1941;
+  color: #fff;
 }
 .accordion-item:last-of-type .accordion-button.collapsed {
-  border-bottom-right-radius:0;
+  border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-.accordion-body{
-  background-color:#0f1941;
-  color:#6b718a;
+.accordion-body {
+  background-color: #0f1941;
+  color: #6b718a;
 }
-.accordion-body ul{
+.accordion-body ul {
   list-style: none;
 }
-.accordion-body ul li{
-  line-height: 2; 
+.accordion-body ul li {
+  line-height: 2;
 }
-.accordion-body ul li:hover{
+.accordion-body ul li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-.footer-list ul{
+.footer-list ul {
   list-style: none;
 }
-.footer-list ul li{
+.footer-list ul li {
   line-height: 2;
   color: #6b718a;
   font-size: 1rem;
 }
-.footer-list ul li:hover{
+.footer-list ul li:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-
+.kategorieMain {
+  background-color: #f7f5f0;
+}
+.kategorie-list ul {
+  list-style: none;
+  padding-left: 0rem !important;
+}
+.kategorie-list ul li {
+  line-height: 2;
+  color: #000000;
+  font-size: 1.25rem;
+}
+.kategorie-list ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.magnetMain {
+  display: block;
+  min-height: 80vh;
+}
+#magnetIcon {
+  width: 100%;
+}
+.rovnostMain {
+  display: block;
+}
+.rovnostText {
+  width: 100% !important;
+  padding: 0 20px !important;
+  /*  text-align: justify !important; */
+}
+.mySwapper2 {
+  width: 60vw;
+}
+.blueBtn {
+  color: #0f1941;
+  border-color: #0f1941;
+}
+.blueBtn:hover {
+  color: white;
+  background-color: #0f1941;
+}
 /* .ukrajinaLow{
   display: flex;
   justify-content: center;
   align-items: center;
 } */
 @media only screen and (min-width: 926px) {
-  .ukrajinaMain{
+  .ukrajinaMain {
     min-height: 80vh;
   }
   .ukrajinaLow {
@@ -162,31 +206,74 @@ form{
   .ukrajinaLow h2 {
     padding-top: 100px;
   }
-  .ukrajinaLogo{
+  .ukrajinaLogo {
     width: 100%;
   }
-  .lokalita{
+  .lokalita {
     display: flex;
     flex-direction: row-reverse;
   }
-  form{
+  form {
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
-  #btnHledej{
+  #btnHledej {
     margin-bottom: 0;
   }
-  .footerList{
+  .footerList {
     display: flex;
   }
-  #najitLokalitu{
+  #najitLokalitu {
     padding-top: 50px;
   }
-  #gpsImg{
+  #gpsImg {
     height: 400px;
   }
-  #accordionExample{
+  #accordionExample {
     display: none;
+  }
+
+  .magnetMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .rovnostMain {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .rovnostImg {
+    height: 100% !important;
+    margin-top: 0 !important;
+    object-fit: cover;
+    object-position: right;
+    width: 100% !important;
+  }
+  .rovnostText {
+    width: 80% !important;
+    text-align: justify;
+    padding: 50px !important;
+  }
+  .poradnaMain {
+    display: flex;
+    align-items: center;
+  }
+  .kdojsmeMain {
+    flex-direction: row !important;
+  }
+  #kdojsmeText {
+    font-size: 36px;
+    margin-top: 0 !important;
+  }
+  #kdojsmeh {
+    width: 20vw;
+    align-items: flex-start !important;
+  }
+  #jsme {
+    width: 60vw;
+  }
+  #jsme h2 {
+    font-size: 40px;
   }
 }

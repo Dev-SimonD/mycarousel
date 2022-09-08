@@ -1,9 +1,39 @@
-import React from 'react'
+import React from "react";
+import magnetIcon from "../assets/magnet.png";
 
-const Magnet = () => {
+export default function Magnet() {
   return (
-    <div>Magnet</div>
-  )
-}
+    <div style={{ backgroundColor: "#ffb511" }}>
+      <div className="container magnetMain">
+        <div className="d-flex">
+          <img id="magnetIcon" src={magnetIcon} style={{ padding: "50px" }} />
+        </div>
 
-export default Magnet
+        <div>
+          <h4 style={{ color: "#0f1941" }}>Randstad Employer Brand Research</h4>
+          <h1 style={{ color: "#0f1941" }}>výsledky 2022.</h1>
+          <p
+            style={{
+              color: "#0f1941",
+              lineHeight: "30px",
+              fontSize: "18px",
+              letterSpacing: "0",
+            }}
+          >
+            Zajímá vás, kdo se letos stal nejatraktivnějším zaměstnavatelem a
+            získal prestižní ocenění Randstad Award? Chtěli byste vědět, co
+            zaměstnance nejvíce motivuje, a co je pro ně důležité při výběru
+            zaměstnavatele? Podívejte se na výsledky našeho průzkumu Employer
+            Brand Research!
+          </p>
+          <button
+            style={{ padding: "20px" }}
+            className="btn btn-outline-primary mb-4 blueBtn"
+          >
+            výsledky REBR 2022
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
