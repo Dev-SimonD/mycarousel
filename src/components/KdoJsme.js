@@ -3,7 +3,7 @@ import React from "react";
 export default function KdoJsme() {
   return (
     <div
-      className=" d-flex justify-content-center align-items-center kdojsmeMain"
+      className=" d-flex justify-content-center  kdojsmeMain"
       style={{
         backgroundColor: "#2175d9",
         flexDirection: "column",

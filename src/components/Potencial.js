@@ -4,12 +4,18 @@ import potencialImage from "../assets/potencial.png";
 export default function Potencial() {
   return (
     <div className="rovnostMain" style={{ backgroundColor: "#f7f5f0" }}>
-      <div>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         <img
           style={{
             height: "200px",
             objectFit: "cover",
-            width: "100%",
+            width: "95%",
             marginTop: "50px",
           }}
           className="rovnostImg"
@@ -20,7 +26,9 @@ export default function Potencial() {
         className="rovnostText"
         style={{ Width: "width: calc((23/58)*100%)" }}
       >
-        <h1 style={{ color: "#0f1941", letterSpacing: "0" }}>
+        <h1
+          style={{ color: "#0f1941", letterSpacing: "0", paddingtop: "30px" }}
+        >
           vidíme váš skutečný potenciál.
         </h1>
         <p

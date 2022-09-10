@@ -23,7 +23,7 @@ export default function Poradna() {
         className="container poradnaMain"
         style={{
           justifyContent: "space-between",
-          padding: "80px 30px 30px 30px",
+          padding: "60px 30px 30px 30px",
         }}
       >
         <div>
@@ -35,7 +35,7 @@ export default function Poradna() {
           </a>
         </div>
       </div>
-      <div className="container">
+      <div className="container flexShrink" style={{ flexShrink: "1" }}>
         <Swiper
           slidesPerView={"auto"}
           spaceBetween={30}
@@ -45,12 +45,13 @@ export default function Poradna() {
           }} */
           modules={[Pagination, Navigation]}
           className="mySwiper2"
-          style={{ paddingBottom: "100px" }}
+          style={{ paddingBottom: "20px" }}
         >
           <SwiperSlide>
-            <div>
+            <div className="test">
               <img
                 src={Man}
+                className="poradnaImage"
                 style={{ borderRadius: "20px" }}
                 alt="Smiling man sitting on stairs, having a phonecall. bookshelf in background"
               />
@@ -70,9 +71,10 @@ export default function Poradna() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div>
+            <div className="test">
               <img
                 src={Couple}
+                className="poradnaImage"
                 style={{ borderRadius: "20px" }}
                 alt="Smiling man sitting on stairs, having a phonecall. bookshelf in background"
               />
@@ -92,9 +94,10 @@ export default function Poradna() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div>
+            <div className="test">
               <img
                 src={Fun}
+                className="poradnaImage"
                 style={{ borderRadius: "20px" }}
                 alt="Smiling man sitting on stairs, having a phonecall. bookshelf in background"
               />
