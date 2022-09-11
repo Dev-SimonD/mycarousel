@@ -49,6 +49,9 @@ const Rovnost = () => {
         <button
           className="btn btn-outline-primary blueBtn"
           style={{ padding: "20px", marginBottom: "50px" }}
+          onClick={() => {
+            window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+          }}
         >
           více informací
         </button>

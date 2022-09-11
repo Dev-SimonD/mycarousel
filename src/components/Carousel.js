@@ -48,6 +48,9 @@ export default function Carousel() {
                 <button
                   type="button"
                   class="btn p-3 btn-outline-primary blueBtn"
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
                 >
                   Prectete si vice
                 </button>
@@ -77,6 +80,9 @@ export default function Carousel() {
                   type="button"
                   style={{ marginTop: "30px" }}
                   class="btn p-3 btn-outline-primary blueBtn"
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
                 >
                   Prectete si vice
                 </button>
@@ -104,6 +110,9 @@ export default function Carousel() {
                 <button
                   type="button"
                   class="btn p-3 btn-outline-primary blueBtn"
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
                 >
                   Prectete si vice
                 </button>

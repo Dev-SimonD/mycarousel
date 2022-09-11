@@ -4,7 +4,9 @@ export default function Kategorie() {
   return (
     <div className=" kategorieMain">
       <div className="container kategorie-list">
-        <h2 className="pt-2">kategorie pracovních nabídek</h2>
+        <h2 className="pt-5" style={{ color: "#0f1941", fontSize: "32px" }}>
+          kategorie pracovních nabídek
+        </h2>
         <br />
         <ul>
           <li>výroba a průmysl</li>

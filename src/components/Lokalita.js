@@ -40,7 +40,14 @@ export default function Lokalita() {
             </div>
             <div class="form-group row">
               <div style={{ width: "100%" }}>
-                <button type="submit" id="btnHledej" class="btn btn-primary">
+                <button
+                  type="submit"
+                  id="btnHledej"
+                  class="btn btn-primary"
+                  onClick={() => {
+                    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                  }}
+                >
                   hledat
                 </button>
               </div>

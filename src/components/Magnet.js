@@ -29,6 +29,9 @@ export default function Magnet() {
           <button
             style={{ padding: "20px" }}
             className="btn btn-outline-primary mb-4 blueBtn"
+            onClick={() => {
+              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+            }}
           >
             výsledky REBR 2022
           </button>

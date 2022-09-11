@@ -18,7 +18,12 @@ export default function Ukrajina() {
             Вас цікавить робота в Чехії? ми пропонуємо Вам допомогу в
             організації роботи з одним із наших перевірених клієнтів.
           </h4>
-          <button className="btn btn-outline-light mt-5 p-3">
+          <button
+            className="btn btn-outline-light mt-5 p-3"
+            onClick={() => {
+              window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+            }}
+          >
             {" "}
             більше інформації
           </button>

@@ -51,6 +51,9 @@ export default function Poradna() {
             <div className="test">
               <img
                 src={Man}
+                onClick={() => {
+                  window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                }}
                 className="poradnaImage"
                 style={{ borderRadius: "20px" }}
                 alt="Smiling man sitting on stairs, having a phonecall. bookshelf in background"
@@ -76,6 +79,9 @@ export default function Poradna() {
                 src={Couple}
                 className="poradnaImage"
                 style={{ borderRadius: "20px" }}
+                onClick={() => {
+                  window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                }}
                 alt="Smiling man sitting on stairs, having a phonecall. bookshelf in background"
               />
               <div className="container">
@@ -99,6 +105,9 @@ export default function Poradna() {
                 src={Fun}
                 className="poradnaImage"
                 style={{ borderRadius: "20px" }}
+                onClick={() => {
+                  window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+                }}
                 alt="Smiling man sitting on stairs, having a phonecall. bookshelf in background"
               />
               <div className="container">
