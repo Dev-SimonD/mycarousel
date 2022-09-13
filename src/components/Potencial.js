@@ -3,7 +3,12 @@ import potencialImage from "../assets/potencial.png";
 
 export default function Potencial() {
   return (
-    <div className="rovnostMain" style={{ backgroundColor: "#f7f5f0" }}>
+    <div
+      className="rovnostMain"
+      style={{ backgroundColor: "#f7f5f0" }}
+      data-aos="fade-up"
+      data-aos-once="true"
+    >
       <div
         style={{
           display: "flex",

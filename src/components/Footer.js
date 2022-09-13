@@ -2,7 +2,11 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div style={{ backgroundColor: "#0f1941" }}>
+    <div
+      style={{ backgroundColor: "#0f1941" }}
+      data-aos-once="true"
+      data-aos="fade-up"
+    >
       <div>
         <div className="container row footerList">
           <ul className="col-sm-3">

@@ -17,7 +17,11 @@ import { Navigation } from "swiper";
 
 export default function Poradna() {
   return (
-    <div>
+    <div
+      data-aos="fade-right"
+      /* style={{ overflowX: "hidden" }} */
+      data-aos-once="true"
+    >
       <div
         /*  className="d-flex align-items-center container" */
         className="container poradnaMain"

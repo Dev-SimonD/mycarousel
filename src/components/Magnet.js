@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import magnetIcon from "../assets/magnet.png";
+import Aos from "aos";
 
 export default function Magnet() {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div style={{ backgroundColor: "#ffb511" }}>
+    <div
+      data-aos="fade-up"
+      data-aos-once="true"
+      style={{ backgroundColor: "#ffb511" }}
+    >
       <div className="container magnetMain">
         <div className="d-flex">
           <img id="magnetIcon" src={magnetIcon} style={{ padding: "50px" }} />

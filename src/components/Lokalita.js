@@ -3,7 +3,11 @@ import gps from "../assets/gps.png";
 
 export default function Lokalita() {
   return (
-    <div style={{ backgroundColor: "#6ba5b4" }}>
+    <div
+      style={{ backgroundColor: "#6ba5b4" }}
+      data-aos="fade-up"
+      data-aos-once="true"
+    >
       <div className="container lokalita">
         <div className="d-flex justify-content-center">
           <img id="gpsImg" src={gps} style={{ padding: "50px" }} />

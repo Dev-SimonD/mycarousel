@@ -1,9 +1,14 @@
 import React from "react";
 import rovnostImage from "../assets/rovnost.jpg";
 
-const Rovnost = () => {
+const Rovnost = (props) => {
   return (
-    <div className="rovnostMain" style={{ backgroundColor: "#f7f5f0" }}>
+    <div
+      className="rovnostMain"
+      data-aos="fade-up"
+      style={{ backgroundColor: "#f7f5f0" }}
+      data-aos-once="true"
+    >
       <div>
         <img
           style={{

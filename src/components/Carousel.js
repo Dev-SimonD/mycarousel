@@ -18,7 +18,7 @@ import { Navigation } from "swiper";
 
 export default function Carousel() {
   return (
-    <>
+    <div data-aos="fade-up" data-aos-once="true">
       <Swiper
         spaceBetween={0}
         navigation={true}
@@ -121,6 +121,6 @@ export default function Carousel() {
           </div>
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }

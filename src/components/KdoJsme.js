@@ -9,6 +9,8 @@ export default function KdoJsme() {
         flexDirection: "column",
         padding: "50px 25px",
       }}
+      data-aos="flip-left"
+      data-aos-once="true"
     >
       <div className="container" id="kdojsmeh">
         <h2 style={{ color: "white" }}>kdo jsme?</h2>

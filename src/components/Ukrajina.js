@@ -3,7 +3,7 @@ import ukrajinaLogo from "../assets/ukrajina.png";
 
 export default function Ukrajina() {
   return (
-    <div className="ukrajinaMain">
+    <div className="ukrajinaMain" data-aos="fade-up" data-aos-once="true">
       <div className="container ukrajinaLow">
         <div className="d-flex justify-content-center col-lg-6">
           <img
