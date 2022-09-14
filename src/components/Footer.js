@@ -7,28 +7,28 @@ export default function Footer() {
       data-aos-once="true"
       data-aos="fade-up"
     >
-      <div>
+      <div style={{ padding: "16px" }}>
         <div className="container row footerList">
-          <ul className="col-sm-3">
+          <ul className="col-sm-3" style={{ fontSize: "16px" }}>
             <li className="text-white">pro uchazeče</li>
             <li>nabídky práce</li>
             <li>poslat životopis</li>
             <li>práce dle oboru</li>
             <li>vyberte si zaměstnavatele</li>
           </ul>
-          <ul className="col-sm-3">
+          <ul className="col-sm-3" style={{ fontSize: "16px" }}>
             <li className="text-white">pro zaměstnavatele</li>
             <li>temporary help</li>
             <li>permanent placement</li>
             <li>inhouse services</li>
             <li>HR solutions</li>
           </ul>
-          <ul className="col-sm-3">
+          <ul className="col-sm-3" style={{ fontSize: "16px" }}>
             <li className="text-white">články</li>
             <li>randstad radí</li>
             <li>průvodce zaměstnáním</li>
           </ul>
-          <ul className="col-sm-3">
+          <ul className="col-sm-3" style={{ fontSize: "16px" }}>
             <li className="text-white">o nás</li>
             <li>kariéra</li>
             <li>kontakty</li>
@@ -40,22 +40,23 @@ export default function Footer() {
         </div>
         <div class="accordion container" id="accordionExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
+            <h2 class="accordion-header" id="headingEight">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
+                data-bs-target="#collapseEight"
                 aria-expanded="false"
-                aria-controls="collapseOne"
+                aria-controls="collapseEight"
+                style={{ fontSize: "20px", paddingInline: "0" }}
               >
                 pro uchazeče
               </button>
             </h2>
             <div
-              id="collapseOne"
+              id="collapseEight"
               class="accordion-collapse collapse"
-              aria-labelledby="headingOne"
+              aria-labelledby="headingEight"
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
@@ -70,22 +71,23 @@ export default function Footer() {
           </div>
           <div class="accordion-item">
             <div className="divider"></div>
-            <h2 class="accordion-header" id="headingTwo">
+            <h2 class="accordion-header" id="headingNine">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
+                data-bs-target="#collapseNine"
                 aria-expanded="false"
-                aria-controls="collapseTwo"
+                aria-controls="collapseNine"
+                style={{ fontSize: "20px", paddingInline: "0" }}
               >
                 pro zaměstnavatele
               </button>
             </h2>
             <div
-              id="collapseTwo"
+              id="collapseNine"
               class="accordion-collapse collapse"
-              aria-labelledby="headingTwo"
+              aria-labelledby="headingNine"
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
@@ -101,22 +103,23 @@ export default function Footer() {
           <div class="accordion-item">
             <div className="divider"></div>
 
-            <h2 class="accordion-header" id="headingThree">
+            <h2 class="accordion-header" id="headingTen">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
+                data-bs-target="#collapseTen"
                 aria-expanded="false"
-                aria-controls="collapseThree"
+                aria-controls="collapseTen"
+                style={{ fontSize: "20px", paddingInline: "0" }}
               >
                 články
               </button>
             </h2>
             <div
-              id="collapseThree"
+              id="collapseTen"
               class="accordion-collapse collapse"
-              aria-labelledby="headingThree"
+              aria-labelledby="headingTen"
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
@@ -129,23 +132,24 @@ export default function Footer() {
           </div>
           <div class="accordion-item">
             {<div className="divider"></div>}
-            <h2 class="accordion-header" id="headingFour">
+            <h2 class="accordion-header" id="headingEleven">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#collapseFour"
+                data-bs-target="#collapseEleven"
                 aria-expanded="false"
-                aria-controls="collapseFour"
+                aria-controls="collapseEleven"
+                style={{ fontSize: "20px", paddingInline: "0" }}
               >
                 o nás
               </button>
             </h2>
 
             <div
-              id="collapseFour"
+              id="collapseEleven"
               class="accordion-collapse collapse"
-              aria-labelledby="headingFour"
+              aria-labelledby="headingEleven"
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">

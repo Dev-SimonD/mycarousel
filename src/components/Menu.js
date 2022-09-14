@@ -1,9 +1,10 @@
 import React from "react";
+import navigation from "../assets/navigation.png";
 
 export default function Menu() {
   return (
     <div className="menuMain">
-      <div className="container" style={{ padding: "10px 10px" }}>
+      <div className="container" style={{ paddingInline: "30px" }}>
         <div
           className="d-flex"
           style={{ justifyContent: "space-between", alignItems: "center" }}
@@ -285,14 +286,35 @@ export default function Menu() {
         </div>
         <div className="divider" style={{ marginTop: "10px" }}></div>
         <div style={{ height: "100%", padding: "30px 0" }}>
-          <h1 className="pb-3">najděte si vysněnou práci.</h1>
-          <a
-            className="py-3 text-white"
-            href="#"
-            style={{ textDecoration: "none", fontSize: "20px" }}
+          <h1
+            className="pb-3"
+            style={{
+              fontSize: "32px",
+              letterSpacing: "1px",
+              lineHeight: "40px",
+            }}
           >
-            použít současnou polohu
-          </a>
+            najděte si vysněnou práci.
+          </h1>
+
+          <div>
+            <img
+              src={navigation}
+              alt="navigation arrow"
+              style={{ width: "30px" }}
+            />
+            <a
+              className="py-3 text-white"
+              href="#"
+              style={{
+                textDecoration: "none",
+                fontSize: "20px",
+                marginLeft: "10px",
+              }}
+            >
+              použít současnou polohu
+            </a>
+          </div>
           <button
             type="button"
             className="btn btn-primary"
@@ -301,7 +323,7 @@ export default function Menu() {
               window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
             }}
           >
-            začít s hledáním
+            <span style={{ letterSpacing: "1px" }}>začít s hledáním</span>
           </button>
           <h4 className="pt-3">25 pracovních pozic</h4>
         </div>

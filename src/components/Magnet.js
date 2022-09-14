@@ -12,7 +12,7 @@ export default function Magnet() {
       data-aos-once="true"
       style={{ backgroundColor: "#ffb511" }}
     >
-      <div className="container magnetMain">
+      <div className="container magnetMain" style={{ paddingInline: "20px" }}>
         <div className="d-flex">
           <img id="magnetIcon" src={magnetIcon} style={{ padding: "50px" }} />
         </div>
@@ -36,7 +36,7 @@ export default function Magnet() {
           </p>
           <button
             style={{ padding: "20px" }}
-            className="btn btn-outline-primary mb-4 blueBtn"
+            className="btn btn-outline-primary mb-5 blueBtn"
             onClick={() => {
               window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
             }}

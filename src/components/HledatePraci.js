@@ -3,7 +3,10 @@ import React from "react";
 export default function HledatePraci() {
   return (
     <div className="container" data-aos="fade-up" data-aos-once="true">
-      <div className="hledateMain">
+      <div
+        className="hledateMain"
+        style={{ marginTop: "20px", paddingInline: "16px" }}
+      >
         <h2 className="py-4">
           hledáte práci? Pojďme se spolu podívat jak vám můžeme hledání vaší
           vysněné práce usnadnit.

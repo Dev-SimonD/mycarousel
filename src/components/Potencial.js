@@ -32,7 +32,12 @@ export default function Potencial() {
         style={{ Width: "width: calc((23/58)*100%)" }}
       >
         <h1
-          style={{ color: "#0f1941", letterSpacing: "0", paddingtop: "30px" }}
+          style={{
+            color: "#0f1941",
+            letterSpacing: "0",
+            paddingTop: "40px",
+            fontWeight: "normal !important",
+          }}
         >
           vidíme váš skutečný potenciál.
         </h1>

@@ -22,10 +22,10 @@ export default function Carousel() {
       <Swiper
         spaceBetween={0}
         navigation={true}
-        pagination={{
+        /* pagination={{
           clickable: true,
-        }}
-        modules={[Pagination, Navigation]}
+        }} */
+        modules={[/* Pagination, */ Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>
